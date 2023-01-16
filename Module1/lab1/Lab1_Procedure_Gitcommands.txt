@@ -36,4 +36,4 @@ $ echo "I enrolled Ironhack's Data Analytics bootcamp because I want to dive mor
 $ git add .
 $ git commit -m "Added text by Rachad"
 $ git push origin classmateRachad
-## I did a pull request on github that was valdated and merged by Bulduk
+## I did a pull request on github that was validated and merged by Bulduk
