@@ -1,0 +1,39 @@
+#Lab_1_Intro-to-GIT
+
+PART1: CREATING MY OWN REPOSITORY
+
+# I created a new repository and named it IronRachad on Github
+
+# I cloned the link of this repository on GitBash and set work directory IronRachad:
+$ git clone https://github.com/rachadnasr/IronRachad.git
+$ cd IronRachad
+
+# I created a file.txt called RachIronhacker.txt and add/commit/push the file into github:
+$ touch RachIronhacker.txt
+$ git add .
+$ git commit -m "Add new txt"
+$ git push origin main
+
+PART2: PAIR PROGRAMMING EXERCISE (On this assignment we worked in a group of three with Clemence and Bulduk)
+
+# Collaboration with Clemence LeGrand
+
+## I sent the link of my repository IronRachad (https://github.com/rachadnasr/IronRachad.git) to Clemence LeGrand. 
+## Clemence forked the repository created a branch and added a new text file called clemence.txt and then she did a pull request
+## In my part I accepted the changed and merged the main repositery to the branch created by Clemence
+
+# Collaboration with Bulduk
+
+## He sent me the link of his repository IronBulduk (https://github.com/bulduk-e/IronBulduk.git)
+## I forked the repository
+## I cloned the repository to my local directory and I created a branch with a text file Rachad.txt I added a phrase and then pushed it to github using GitBash commands:
+$ git clone https://github.com/rachadnasr/IronBulduk.git
+$ cd IronBulduk
+$ git branch classmateRachad
+$ git checkout classmateRachad
+$ touch Rachad.txt
+$ echo "I enrolled Ironhack's Data Analytics bootcamp because I want to dive more deeper in the Data analysis field" >> rachad.txt
+$ git add .
+$ git commit -m "Added text by Rachad"
+$ git push origin classmateRachad
+## I did a pull request on github that was valdated and merged by Bulduk
