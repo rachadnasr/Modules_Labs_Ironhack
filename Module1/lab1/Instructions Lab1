@@ -1,0 +1,31 @@
+Instructions
+
+    First of all, install git if you don't have it yet, and create a GitHub account. (In case you haven't made it to the bonus section in the Prework, refer to the lesson "Install Git and Create GitHub Account", that you will find there. Follow the guidelines given there. Additionally, you can use these resources: Install git, Version control with git)
+
+    Create a new repository in GitHub. Name it Iron+ your name. Example: if your name is Iron, you will name the repo IronHack.
+
+    Clone that repo to your computer.
+
+    Create a file in that folder. Name it about.txt and add a fun fact about yourself. (You can use the command line: touch nameOfTheFile.txt).
+
+    Add the file you just created to git.
+
+    Commit the change.
+
+    Push the changes to the GitHub and check your repository to make sure everything is there.
+
+Great! This was pretty smooth, we hope. 🚀
+
+Now let's practice the collaboration part.
+Pair Programming exercise
+
+Pair yourself with a classmate. Send the link to your repository on GitHub to your pair via Slack. Now each of you should perform the following set of actions:
+
+    Fork the classmate's repository.
+    Clone it so you have it locally and you can make changes.
+    Create a new branch named classmate.
+    Create a new file with your name (ex. maya.txt) and finish the following sentence I enrolled Ironhack's Data Analytics bootcamp because.... When you are done, save the changes.
+    Add the changes to git.
+    Commit and push changes. Now, all the changes should be on your GitHub inside the forked repository.
+    Create a pull request to make changes appear in the original repository.
+    Merge the branch your classmate created and now everyone's repos should have the original file (about.txt) as well as the new one with your classmate's name.
