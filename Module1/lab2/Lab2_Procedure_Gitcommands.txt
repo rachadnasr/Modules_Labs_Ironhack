@@ -1,0 +1,254 @@
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack (main)
+$ cd Module1
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1 (main)
+$ mkdir lab2
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1 (main)
+$ cd lab2
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2 (main)
+$ mkdir your-code
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2 (main)
+$ cd your-code
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ touch about-me.md
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ cd ..
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2 (main)
+$ cd ..
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1 (main)
+$ cd ..
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack (main)
+$ git add .
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack (main)
+$ git commit -m "add lab2"
+[main fa1d46f] add lab2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Module1/lab2/your-code/about-me.md
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 401 bytes | 200.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rachadnasr/Modules_Labs_Ironhack.git
+   bf21de3..fa1d46f  main -> main
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack (main)
+$ cd Module1
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1 (main)
+$ cd lab2
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2 (main)
+$ cd your-code
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ git add .
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ git commit -m "added Ironhack in the md file"
+[main 292a8dc] added Ironhack in the md file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 426 bytes | 213.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rachadnasr/Modules_Labs_Ironhack.git
+   fa1d46f..292a8dc  main -> main
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ git log
+commit 292a8dc67902bf9b34e9cd85d0c9ec6a57591de5 (HEAD -> main, origin/main, origin/HEAD)
+Author: rnasr <rachad.n90@gmail.com>
+Date:   Tue Jan 17 12:19:31 2023 +0100
+
+    added Ironhack in the md file
+
+commit fa1d46f0e8a796c0105b392eb3931e2fe50567fe
+Author: rnasr <rachad.n90@gmail.com>
+Date:   Tue Jan 17 12:14:48 2023 +0100
+
+    add lab2
+
+commit bf21de341dff32ed8491b7185e7d5e290510f4d5
+Author: Rachad Nasr <53124723+rachadnasr@users.noreply.github.com>
+Date:   Tue Jan 17 11:49:34 2023 +0100
+
+    Delete lab2
+
+commit 6238fde5e11e2b527837867346a4a6cbcf5701ae
+Author: Rachad Nasr <53124723+rachadnasr@users.noreply.github.com>
+Date:   Tue Jan 17 11:49:12 2023 +0100
+
+    Create lab2
+
+commit b70dac553dba86ad41fb36d543ac46617e43cfe1
+Author: Rachad Nasr <53124723+rachadnasr@users.noreply.github.com>
+Date:   Mon Jan 16 20:44:04 2023 +0100
+
+    Update Lab1_Procedure_Gitcommands.txt
+
+commit 51bd9c845c45dec4b347672f3e1c1e1779032433
+Author: Rachad Nasr <53124723+rachadnasr@users.noreply.github.com>
+Date:   Mon Jan 16 20:43:13 2023 +0100
+
+    Create Instructions Lab1
+
+commit 3056db46d37b264c6b184a61b734bb284210c373
+Author: rnasr <rachad.n90@gmail.com>
+Date:   Mon Jan 16 20:41:18 2023 +0100
+
+    Add lab1 documents
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ git reset --hard fa1d46f0e8a796c0105b392eb3931e2fe50567fe
+HEAD is now at fa1d46f add lab2
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ git checkout -b lab-resolving-git-conflicts
+Switched to a new branch 'lab-resolving-git-conflicts'
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (main)
+$ git checkout lab-resolving-git-conflicts
+Switched to branch 'lab-resolving-git-conflicts'
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ nano about-me.md
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ git status
+On branch lab-resolving-git-conflicts
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   about-me.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ git add about-me.md
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ git commit -m "I changed the about.me file and added personla informations"
+[lab-resolving-git-conflicts e42d51d] I changed the about.me file and added personla informations
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ git pull origin main
+From https://github.com/rachadnasr/Modules_Labs_Ironhack
+ * branch            main       -> FETCH_HEAD
+Auto-merging Module1/lab2/your-code/about-me.md
+CONFLICT (content): Merge conflict in Module1/lab2/your-code/about-me.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts|MERGING)
+$ git status
+On branch lab-resolving-git-conflicts
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   about-me.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts|MERGING)
+$ cat about-me.md
+<<<<<<< HEAD
+# Rachad Nasr
+
+* From Lebanon
+* Scientist
+* I have a small previous experience with technology/data
+
+# Learn data analysis
+
+* Data analysis bootcamp
+* Python and machine learning
+
+# Become a data analyst
+
+* Life science tech companies
+* Data analayst Junior
+* Become data scientist
+=======
+Rachad Nasr
+Ironhack
+>>>>>>> 292a8dc67902bf9b34e9cd85d0c9ec6a57591de5
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts|MERGING)
+$ git status
+On branch lab-resolving-git-conflicts
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   about-me.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts|MERGING)
+$ git add .
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts|MERGING)
+$ git commit -m "I erased manually what would be causing problem"
+[lab-resolving-git-conflicts f8f850d] I erased manually what would be causing problem
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ git status
+On branch lab-resolving-git-conflicts
+nothing to commit, working tree clean
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ git commit -m "resolving conflicts with master branch"
+On branch lab-resolving-git-conflicts
+nothing to commit, working tree clean
+
+Rachad@LAPTOP-7LARB764 MINGW64 ~/Desktop/Modules_Labs_Ironhack/Module1/lab2/your-code (lab-resolving-git-conflicts)
+$ git push origin lab-resolving-git-conflicts
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (12/12), 1.06 KiB | 216.00 KiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'lab-resolving-git-conflicts' on GitHub by visiting:
+remote:      https://github.com/rachadnasr/Modules_Labs_Ironhack/pull/new/lab-resolving-git-conflicts
+remote:
+To https://github.com/rachadnasr/Modules_Labs_Ironhack.git
+ * [new branch]      lab-resolving-git-conflicts -> lab-resolving-git-conflicts
