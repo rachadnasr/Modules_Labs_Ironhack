@@ -1,0 +1,6 @@
+Changes added to the Game_Guess_the_name:
+
+#Changing the name of the script:
+from Game_Guess_the_name into a camel case: gameGuessTheName.
+
+#Add comments about the different line of the codes to make it more explicit
